@@ -2,7 +2,7 @@ import pyodbc
 
 dados_conexao = (
     "Driver={SQL Server};"# instalado automaticante junto com o sql
-    "Server=DESKTOP-TS58G3G\SQLEXPRESS;"
+    "Server=.\SQLEXPRESS;"
     "Database=PythonSQL;"
 )
 #necessario criar a variavel
